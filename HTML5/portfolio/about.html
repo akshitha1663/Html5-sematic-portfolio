@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Ava Rivera | Personal Portfolio</title>
+    <meta name="description" content="Learn more about Ava Rivera, her background, values, and approach to building inclusive web experiences." />
+    <meta name="keywords" content="about, web developer, accessibility, inclusive design, front-end" />
+    <meta name="author" content="Ava Rivera" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://example.com/portfolio/about.html" />
+    <meta property="og:title" content="About Ava Rivera" />
+    <meta property="og:description" content="A short introduction to Ava Rivera and her web development philosophy." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/portfolio/about.html" />
+    <meta property="og:image" content="https://example.com/portfolio/assets/images/about-portrait.svg" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" role="banner">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Ava Rivera home">Ava Rivera</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" aria-current="page">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="content-section" aria-labelledby="about-title">
+        <div class="container about-layout">
+          <div>
+            <p class="eyebrow">About Me</p>
+            <h1 id="about-title">I design for people first and pixels second.</h1>
+            <p>I am a front-end developer focused on creating calm, accessible interfaces that help businesses connect with their audience.</p>
+            <p>My work blends modern HTML, thoughtful CSS, and a strong commitment to usability. I believe good websites should feel intuitive, inclusive, and easy to navigate.</p>
+          </div>
+          <img src="assets/images/about-portrait.svg" alt="Portrait illustration of Ava Rivera, a front-end developer" />
+        </div>
+      </section>
+
+      <section class="content-section alt-bg" aria-labelledby="journey-title">
+        <div class="container">
+          <h2 id="journey-title">My Journey</h2>
+          <div class="timeline">
+            <article class="timeline-item">
+              <h3>2019</h3>
+              <p>Started building simple landing pages and learned the foundations of semantic HTML and CSS.</p>
+            </article>
+            <article class="timeline-item">
+              <h3>2021</h3>
+              <p>Expanded into interactive UI development and accessibility-focused programming.</p>
+            </article>
+            <article class="timeline-item">
+              <h3>2024</h3>
+              <p>Now help teams launch polished, responsive websites with strong user experience principles.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" aria-labelledby="values-title">
+        <div class="container split-layout">
+          <article>
+            <h2 id="values-title">What guides my work</h2>
+            <p>Clarity, empathy, and thoughtful communication shape every project I take on.</p>
+          </article>
+          <aside class="highlight-box" aria-label="Approach overview">
+            <h3>Approach</h3>
+            <ul>
+              <li>Research the audience and goals</li>
+              <li>Design with accessibility in mind</li>
+              <li>Iterate based on feedback and results</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Ava Rivera. All rights reserved.</p>
+        <p><a href="mailto:hello@avarivera.dev">hello@avarivera.dev</a></p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
