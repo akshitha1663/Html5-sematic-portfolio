@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Ava Rivera | Personal Portfolio</title>
+    <meta name="description" content="View recent web development projects from Ava Rivera, including accessible and responsive interfaces." />
+    <meta name="keywords" content="projects, web design, portfolio, responsive websites, front-end" />
+    <meta name="author" content="Ava Rivera" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://example.com/portfolio/projects.html" />
+    <meta property="og:title" content="Ava Rivera Projects" />
+    <meta property="og:description" content="A showcase of accessible websites and digital products created by Ava Rivera." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/portfolio/projects.html" />
+    <meta property="og:image" content="https://example.com/portfolio/assets/images/project-1.svg" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" role="banner">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Ava Rivera home">Ava Rivera</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" aria-current="page">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="content-section" aria-labelledby="projects-title">
+        <div class="container">
+          <p class="eyebrow">Selected Work</p>
+          <h1 id="projects-title">Projects shaped by clarity and usability.</h1>
+          <div class="card-grid">
+            <article class="card project-card">
+              <img src="assets/images/project-1.svg" alt="Preview of a wellness studio landing page design" />
+              <h3>Studio North</h3>
+              <p>A refined landing page for a wellness studio with accessible navigation and a strong conversion path.</p>
+            </article>
+            <article class="card project-card">
+              <img src="assets/images/project-2.svg" alt="Preview of a digital agency dashboard interface" />
+              <h3>Northstar Agency</h3>
+              <p>A content-rich marketing site with modular sections and polished interactions.</p>
+            </article>
+            <article class="card project-card">
+              <img src="assets/images/project-3.svg" alt="Preview of a design consultancy portfolio site" />
+              <h3>Forma Studio</h3>
+              <p>An editorial-style portfolio site featuring strong storytelling and responsive content blocks.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section alt-bg" aria-labelledby="toolbox-title">
+        <div class="container split-layout">
+          <article>
+            <h2 id="toolbox-title">Tools and focus areas</h2>
+            <p>I enjoy building with semantic HTML, thoughtful CSS systems, and small, purposeful JavaScript enhancements.</p>
+          </article>
+          <aside class="highlight-box" aria-label="Project approach">
+            <h3>Current Stack</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Accessibility audits</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Ava Rivera. All rights reserved.</p>
+        <p><a href="mailto:hello@avarivera.dev">hello@avarivera.dev</a></p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
