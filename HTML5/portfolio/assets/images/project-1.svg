@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Preview of a wellness studio landing page design">
-  <rect width="480" height="320" rx="20" fill="#f8fafc"/>
-  <rect x="40" y="40" width="400" height="240" rx="18" fill="#ffffff"/>
-  <rect x="72" y="78" width="120" height="14" rx="7" fill="#4f46e5"/>
-  <rect x="72" y="110" width="190" height="8" rx="4" fill="#cbd5e1"/>
-  <rect x="72" y="128" width="150" height="8" rx="4" fill="#cbd5e1"/>
-  <rect x="72" y="172" width="160" height="88" rx="14" fill="#eef2ff"/>
-  <rect x="248" y="172" width="160" height="88" rx="14" fill="#dbeafe"/>
-</svg>

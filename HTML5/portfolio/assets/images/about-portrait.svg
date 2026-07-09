@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-label="Portrait illustration of Ava Rivera, a front-end developer">
-  <rect width="480" height="480" rx="32" fill="#f7f8fc"/>
-  <circle cx="240" cy="192" r="92" fill="#f4c7a1"/>
-  <path d="M144 386c22-78 70-116 96-116s74 38 96 116" fill="#4f46e5"/>
-  <circle cx="212" cy="178" r="8" fill="#18212f"/>
-  <circle cx="268" cy="178" r="8" fill="#18212f"/>
-  <path d="M210 224c16 16 44 16 60 0" stroke="#18212f" stroke-width="8" stroke-linecap="round" fill="none"/>
-  <rect x="160" y="118" width="156" height="28" rx="14" fill="#18212f"/>
-</svg>
